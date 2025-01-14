@@ -46,6 +46,7 @@ export async function onRequest(context) {
   
   async function sendEmail(messageBody, env) {
     try {
+        console.log(env.SENDGRID_API_KEY);
       const email = await fetch("https://api.sendgrid.com/v3/mail/send", {
         method: "POST",
         headers: {
