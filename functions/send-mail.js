@@ -45,8 +45,9 @@ export async function onRequest(context) {
   }
   
   async function sendEmail(messageBody, env) {
+    
     try {
-        console.log(env.SENDGRID_API_KEY);
+        console.log(process.env.SENDGRID_API_KEY);
       const email = await fetch("https://api.sendgrid.com/v3/mail/send", {
         method: "POST",
         headers: {
@@ -59,6 +60,7 @@ export async function onRequest(context) {
     } catch (error) {
       return { status: 500, statusText: error };
     }
+    
   }
   
   async function handleDisallowedMethod() {
