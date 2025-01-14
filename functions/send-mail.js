@@ -79,7 +79,8 @@ async function handlePostRequest(request, env) {
             `${returnUrl}?success=false&reason=SendGrid%20API%20returned%20${errorText}%20(statusCode: ${emailResponse.status})`
         );
     }
-    
+    console.log(emailResponse.status);
+    console.log(emailResponse.statusText);
     return Response.redirect(`${returnUrl}?success=true`);
 }
 
