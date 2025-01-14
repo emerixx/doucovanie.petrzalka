@@ -46,11 +46,11 @@ export async function onRequest(context) {
   
   async function sendEmail(messageBody, env) {
     try {
-        console.log(env.SENDGRID_API_KEY);
+        console.log(SENDGRID_API_KEY);
       const email = await fetch("https://api.sendgrid.com/v3/mail/send", {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${env.SENDGRID_API_KEY}`,
+          Authorization: `Bearer ${SENDGRID_API_KEY}`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify(messageBody),
