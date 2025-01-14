@@ -80,7 +80,7 @@ async function handlePostRequest(request, env) {
         );
     }
     
-    return Response.redirect(`${returnUrl}/sent-email`);
+    return Response.redirect(`${returnUrl}sent-email`);
     
 }
 
