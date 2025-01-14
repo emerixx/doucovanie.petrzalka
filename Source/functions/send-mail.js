@@ -12,7 +12,9 @@
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
 });
-
+export function onRequest(context) {
+    return new Response("Hello, world!")
+  }
 async function handleRequest(request) {
   if (request.method === 'POST') {
       const { name, email, message } = await request.json();
