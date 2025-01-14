@@ -1,9 +1,3 @@
-addEventListener('fetch', event => {
-  event.respondWith(handleRequest(event.request));
-});
-
-async function handleRequest(request) {
-  return new Response('Hello, World!', {
-      headers: { 'Content-Type': 'text/plain' },
-  });
+export function onRequest(context) {
+  return new Response("Hello, world!")
 }
