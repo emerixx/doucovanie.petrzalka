@@ -9,9 +9,7 @@
  */
 
 
-export function onRequest(context) {
-    return new Response("Hello, world!")
-}
+
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
 });
