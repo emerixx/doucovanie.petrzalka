@@ -10,32 +10,32 @@ export async function onRequest(context) {
   }
   
   function composeRequest(formData, env) {
-    const { email, firstname, surname, textarea } = formData;
+    const { name, email, message } = formData;
     return {
       from: {
-        email: env.SENDGRID_EMAIL_SENDER,
+        email: "doucovanie.petrzalka@gmail.com",
         name: "my website",
       },
       replyTo: {
         email: `${email}`,
-        name: `${firstname} ${surname}`,
+        name: `${name}`,
       },
       subject: "New message from my website",
       content: [
         {
           type: "text/plain",
-          value: `New message from ${firstname} ${surname} (${email}): "${textarea}"`,
+          value: `New message from ${name} (${email}): "${message}"`,
         },
       ],
       personalizations: [
         {
           from: {
-            email: env.SENDGRID_EMAIL_SENDER,
+            email: "doucovanie.petrzalka@gmail.com",
             name: "my website (example.com)",
           },
           to: [
             {
-              email: env.SENDGRID_EMAIL_RECIPIENT,
+              email: "doucovanie.petrzalka@gmail.com",
               name: "Recipient",
             },
           ],
