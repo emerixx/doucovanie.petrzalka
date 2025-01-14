@@ -71,7 +71,7 @@ export async function onRequest(context) {
     const returnUrl = request.headers.get("referer");
   
     let formData = await readRequestBody(request);
-    const requestBody = composeRequest(formData, env);f
+    const requestBody = composeRequest(formData, env);
   
     if (!env ?? env.SENDGRID_API_KEY) {
       return Response.redirect(`${returnUrl}?success=false&reason=no-api-key`);
