@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doučovanie Petržalka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="header_logo" src="Images/logo.png" alt="Logo">
+        <div class="inner_header_container">
+            <div class="inner_header">
+                <h1 class="header_text">Doučovanie Petržalka</h1>
+                <nav>
+                    <ul>
+                        <li><a href="">O nás</a></li>
+                        <li style="font-weight: 900;"> - </li>
+                        <li><a href="offers.html">Akcie a ponuky</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+    </header>
+
+    <section id="header_section">
+        <h2>Vitajte na našich doučovacích službách! TEST2</h2>
+        <p>Pomáhame študentom dosiahnuť ich akademické ciele prostredníctvom osobného a efektívneho doučovania.</p>
+    </section>
+    <section id="services">
+        <h2>Čo ponúkame?</h2>
+        <p>- Doučovanie matematiky - úroveň stredná škola.</p>
+        <p>- Doučovanie informatiky, fyziky a chémie - úroveň základná škola.</p>
+        <p>- Možnosti doučovania osobne aj online.</p>
+        <p>- Vysokú flexibilitu, Prispôsobíme sa vášmu rozvrhu a potrebám.</p>
+    </section>
+    <section id="contact">
+        <h2>Kontaktujte nás</h2>
+        <form action="/api/send-mail" method="post">
+            <label for="name">Meno:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Správa:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button type="submit">Odoslať správu</button>
+        </form>
+    </section>
+    
+
+    
+
+    <footer>
+        <p>&copy; 2025 - Doučovanie Petržalka.</p>
+    </footer>
+</body>
+</html>
