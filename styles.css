@@ -71,6 +71,7 @@ section {
 
 .thankyou_section{
   text-align: center;
+  justify-items: center;
 }
 
 .service {
