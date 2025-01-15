@@ -45,13 +45,18 @@ header {
   text-decoration: none;
   
 }
-.secondary_nav_ul a li {
-  
-  
-}
 
 .secondary_nav_ul a:hover {
   background-color: #92c96e; /* Slightly brighter color on hover */
+}
+
+.current_sec_nav{
+  background-color: #98d66f;
+  font-weight: bold;
+}
+
+.current_sec_nav:hover {
+  background-color: #a4d484; /* Slightly brighter color on hover */
 }
 
 .inner_header_container {
