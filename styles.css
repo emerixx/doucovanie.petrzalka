@@ -38,13 +38,13 @@ header {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;     /* Center vertically */      /* Center text within each item */
-  
+  cursor: pointer;
   height: 100px;
   
 }
 
 .secondary_nav_ul li:hover {
-  background-color: #7fbb56; /* Slightly brighter color on hover */
+  background-color: #81b65e; /* Slightly brighter color on hover */
 }
 
 .inner_header_container {
@@ -82,6 +82,7 @@ nav ul {
 
 nav ul li {
   display: inline;
+  cursor: pointer;
   
 }
 
