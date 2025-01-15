@@ -67,9 +67,9 @@ header {
   margin-top: 0;
   width: 350px;               /* Set the width of the nav */
   background-color: #F9A620;
-    color: white;               /* Text color */
+  color: white;               /* Text color */
            /* Padding around the nav */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+  height: fit-content;
 }
 
 .exercises_nav .search_div{
