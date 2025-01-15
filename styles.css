@@ -60,11 +60,14 @@ header {
 }
 
 .exercises_nav{
+  display: flex;
   background-color: #FFD449;
   color: white;
   width: 350px;
   margin-top: 0;
   padding-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .exercises_nav .search_div{
