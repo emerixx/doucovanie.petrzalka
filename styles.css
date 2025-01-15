@@ -21,8 +21,8 @@ header {
   color: white;
   height: 100px;
   
-  padding: 10px;         /* Space around content */
-  margin-bottom: 20px;   /* Space below the nav */
+  
+  
 }
 .secondary_nav_ul{
   display: flex;              /* Use Flexbox for layout */
@@ -30,13 +30,15 @@ header {
   padding: 0;                /* Remove default padding */
   margin: 0;                 /* Remove default margin */
   list-style-type: none;     /* Remove bullet points */
+  height: auto;
 }
 
 .secondary_nav_ul li {
   flex: 1;                   /* Each item takes equal space */
   text-align: center;        /* Center text within each item */
   padding: 10px;             /* Add some padding for better appearance */
-  border: 1px solid #ccc;    /* Optional: Add a border for visibility */
+  border: 1px solid #0000;    /* Optional: Add a border for visibility */
+  height: auto;
 }
 
 
