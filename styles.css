@@ -68,7 +68,7 @@ header {
   width: 350px;               /* Set the width of the nav */
   background-color: #F9A620;
     color: white;               /* Text color */
-    padding: 20px;              /* Padding around the nav */
+           /* Padding around the nav */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
 }
 
@@ -104,7 +104,7 @@ header {
   text-align: center;         /* Remove default padding */
   margin-top:20px;
   width: 100%;
-  ;
+  
   background-color: #d46aa4;
   
 }
