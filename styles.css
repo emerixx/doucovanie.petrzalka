@@ -79,6 +79,10 @@ header {
   text-align: center;
 }
 
+.flex_container {
+  display: flex;                /* Use flexbox for layout */
+}
+
 .exercises_nav .search_div input{
   width: 75%;                
   padding: 10px;     
@@ -169,6 +173,7 @@ section {
   border-radius: 9px;
   max-width: 800px;
   min-width: 100px;
+  flex-grow: 1;
 }
 
 .thankyou_section{
