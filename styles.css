@@ -83,8 +83,7 @@ header {
 }
 .exercises_nav_ul li{
   text-align: center;         /* Remove default padding */
-  padding: 10px;
-  margin: 10px;
+  
   border: solid gray 1px;
   border-radius: 10px;
   background-color: #cab46d;
