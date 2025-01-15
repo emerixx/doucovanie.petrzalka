@@ -17,7 +17,7 @@ header {
 }
 
 .current_nav{
-  font-weight: bold;
+  text-decoration: wavy;
 }
 
 .inner_header_container {
