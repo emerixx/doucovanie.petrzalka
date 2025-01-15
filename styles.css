@@ -72,6 +72,7 @@ header {
   margin: 10px;
   border: solid gray 1px;
   border-radius: 10px;
+  width: 250px;
 }
 .exercises_nav_ul{
   list-style-type: none; /* Remove bullet points */
