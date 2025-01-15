@@ -24,10 +24,10 @@ header {
 }
 .secondary_nav_ul{
   display: flex;              /* Use Flexbox for layout */
-    justify-content: space-between; /* Distribute space between items */
-    padding: 0;                /* Remove default padding */
-    margin: 0;                 /* Remove default margin */
-    list-style-type: none;     /* Remove bullet points */
+  justify-content: space-between; /* Distribute space between items */
+  padding: 0;                /* Remove default padding */
+  margin: 0;                 /* Remove default margin */
+  list-style-type: none;     /* Remove bullet points */
 }
 
 .secondary_nav_ul li {
