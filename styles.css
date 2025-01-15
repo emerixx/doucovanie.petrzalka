@@ -74,11 +74,12 @@ header {
 
 
 .exercises_nav .search_div input{
-  width: 100%;                /* Full width for the search bar */
+  width: 75%;                /* Full width for the search bar */
   padding: 10px;             /* Padding inside the search bar */
   margin-bottom: 20px;       /* Space below the search bar */
   border: none;              /* Remove border */
   border-radius: 5px;
+  
 }
 .exercises_nav_ul{
   
@@ -95,6 +96,11 @@ header {
   border: solid gray 1px;
   border-radius: 10px;
   background-color: #cab46d;
+  
+}
+.exercises_nav_ul a{
+ text-decoration: none;
+ color: white;
   
 }
 
