@@ -62,7 +62,7 @@ header {
 .exercises_nav{
   background-color: #FFD449;
   color: white;
-  width: 300px;
+  width: 350px;
   margin-top: 0;
   padding-top: 50px;
 }
@@ -70,6 +70,8 @@ header {
 .exercises_nav .search_div{
   padding: 10px;
   margin: 10px;
+  border: solid gray 1px;
+  border-radius: 10px;
 }
 .exercises_nav_ul{
   list-style-type: none; /* Remove bullet points */
