@@ -50,7 +50,7 @@ header {
   
 }
 
-.secondary_nav_ul li:hover {
+.secondary_nav_ul a:hover {
   background-color: #92c96e; /* Slightly brighter color on hover */
 }
 
