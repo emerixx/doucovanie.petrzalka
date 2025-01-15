@@ -84,7 +84,8 @@ header {
 }
 
 .exercises_nav .search_div input{
-  width: 75%;                
+  width: 75%;    
+  margin-top: 20px;            
   padding: 10px;     
  
   margin-bottom: 20px;       /* Space below the search bar */
@@ -102,7 +103,8 @@ header {
 }
 .exercises_nav_ul li{
   text-align: center;         /* Remove default padding */
-  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
   width: 100%;
   
   background-color: #d46aa4;
