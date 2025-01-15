@@ -33,7 +33,7 @@ header {
   height: auto;
 }
 
-.secondary_nav_ul li {
+.secondary_nav_ul a {
   flex: 1;                   /* Each item takes equal space */
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -43,7 +43,7 @@ header {
   
   
 }
-.secondary_nav_ul li a {
+.secondary_nav_ul a li {
   color: white;
   font-family:Arial, Helvetica, sans-serif;
   text-decoration: none;
