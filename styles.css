@@ -178,6 +178,7 @@ section {
 
 .sections-content{
   flex-grow: 1;
+  margin-right: 350px;
 }
 
 .thankyou_section{
