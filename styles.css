@@ -77,7 +77,7 @@ header {
 .exercises_nav_ul{
   list-style-type: none; /* Remove bullet points */
   margin: 0;            /* Remove default margin */
-  padding: 20px;           /* Remove default padding */
+  padding-top: 20px;           /* Remove default padding */
     
   
 }
