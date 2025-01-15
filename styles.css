@@ -59,6 +59,12 @@ header {
   background-color: #a4d484; /* Slightly brighter color on hover */
 }
 
+.exercises_nav{
+  background-color: #FFD449;
+  color: white;
+  width: 100px;
+}
+
 .inner_header_container {
   text-align: center;
   width: 100%; 
