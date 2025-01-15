@@ -64,6 +64,9 @@ header {
   color: white;
   width: 100px;
 }
+.exercises_nav_ul{
+  background-color: red;
+}
 
 .inner_header_container {
   text-align: center;
