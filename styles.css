@@ -44,7 +44,7 @@ header {
 }
 
 .secondary_nav_ul li:hover {
-  background-color: #81b65e; /* Slightly brighter color on hover */
+  background-color: #92c96e; /* Slightly brighter color on hover */
 }
 
 .inner_header_container {
@@ -120,11 +120,6 @@ section {
   margin-bottom: 15px;
 }
 
-blockquote {
-  border-left: 4px solid #4CAF50;
-  padding-left: 20px;
-  font-style: italic;
-}
 
 form {
   display: flex;
@@ -143,14 +138,14 @@ form input, form textarea {
 form button {
   margin-top: 10px;
   padding: 10px;
-  background-color: #4CAF50;
+  background-color: #78B84D;
   color: white;
   border-radius: 7px;
   cursor: pointer;
 }
 
 form button:hover {
-  background-color: #45a049;
+  background-color: #92c96e;
 }
 
 footer {
