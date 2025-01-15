@@ -60,14 +60,16 @@ header {
 }
 
 .exercises_nav{
-  display: flex;
-  background-color: #FFD449;
-  color: white;
-  width: 350px;
+ 
+  
+  
+
   margin-top: 0;
-  padding-top: 10px;
-  justify-content: center;
-  align-items: center;
+  width: 350px;               /* Set the width of the nav */
+  background-color: #FFD449;
+    color: white;               /* Text color */
+    padding: 20px;              /* Padding around the nav */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
 }
 
 .exercises_nav .search_div{
@@ -77,16 +79,25 @@ header {
   border-radius: 10px;
   width: 250px;
 }
+.exercises_nav .search_div input{
+  width: 100%;                /* Full width for the search bar */
+  padding: 10px;             /* Padding inside the search bar */
+  margin-bottom: 20px;       /* Space below the search bar */
+  border: none;              /* Remove border */
+  border-radius: 5px;
+}
 .exercises_nav_ul{
-  list-style-type: none; /* Remove bullet points */
-  margin: 0;            /* Remove default margin */
-  padding-top: 20px;           /* Remove default padding */
-    
+  
+  list-style-type: none;      /* Remove bullet points */
+    padding: 0;                 /* Remove default padding */
+    margin: 0;  
+    text-align: center;
   
 }
 .exercises_nav_ul li{
   text-align: center;         /* Remove default padding */
-  
+  margin-top:20px;
+  padding: 10px;
   border: solid gray 1px;
   border-radius: 10px;
   background-color: #cab46d;
