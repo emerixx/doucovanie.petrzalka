@@ -38,11 +38,14 @@ header {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;     /* Center vertically */      /* Center text within each item */
-  background-color: blue;
+  
   height: 100px;
   
 }
 
+.secondary_nav_ul li:hover {
+  background-color: #7fbb56; /* Slightly brighter color on hover */
+}
 
 .inner_header_container {
   text-align: center;
@@ -141,7 +144,7 @@ form button {
   padding: 10px;
   background-color: #4CAF50;
   color: white;
-  border: none;
+  border-radius: 7px;
   cursor: pointer;
 }
 
