@@ -16,7 +16,12 @@ header {
   
 }
 
-
+.secondary_nav_header{
+  background-color: #548C2F;
+  color: white;
+  height: 100px;
+  display: flex;
+}
 
 .inner_header_container {
   text-align: center;
