@@ -20,7 +20,9 @@ header {
   background-color: #78B84D;
   color: white;
   height: 100px;
-  display: flex;
+  
+  padding: 10px;         /* Space around content */
+  margin-bottom: 20px;   /* Space below the nav */
 }
 .secondary_nav_ul{
   display: flex;              /* Use Flexbox for layout */
