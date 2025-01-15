@@ -67,9 +67,16 @@ header {
   padding-top: 0;
 }
 .exercises_nav_ul{
- 
-  margin-top: 0;
-  padding-top: 0;
+  list-style-type: none; /* Remove bullet points */
+    margin: 0;            /* Remove default margin */
+    padding: 0;           /* Remove default padding */
+    
+  
+}
+.exercises_nav_ul li{
+  text-align: center;         /* Remove default padding */
+    
+  
 }
 
 
