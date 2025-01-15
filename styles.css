@@ -72,12 +72,7 @@ header {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
 }
 
-.exercises_nav .search_div{
-  
-  margin: 10px;
-  
-  width: 300px;
-}
+
 .exercises_nav .search_div input{
   width: 100%;                /* Full width for the search bar */
   padding: 10px;             /* Padding inside the search bar */
