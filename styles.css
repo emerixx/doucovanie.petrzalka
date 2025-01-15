@@ -17,7 +17,7 @@ header {
 }
 
 .current_nav{
-  text-decoration: wavy;
+  font-style: oblique;
 }
 
 .inner_header_container {
