@@ -17,10 +17,13 @@ header {
 }
 
 .secondary_nav_header{
-  background-color: #548C2F;
+  background-color: #78B84D;
   color: white;
   height: 100px;
   display: flex;
+}
+.secondary_nav_ul{
+  display: flexbox;
 }
 
 .inner_header_container {
