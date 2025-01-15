@@ -66,6 +66,11 @@ header {
   margin-top: 0;
   padding-top: 50px;
 }
+
+.exercises_nav .search_div{
+  padding: 10px;
+  margin: 10px;
+}
 .exercises_nav_ul{
   list-style-type: none; /* Remove bullet points */
   margin: 0;            /* Remove default margin */
@@ -77,9 +82,9 @@ header {
   text-align: center;         /* Remove default padding */
   padding: 10px;
   margin: 10px;
-  border: solid gray 2px;
+  border: solid gray 1px;
   border-radius: 10px;
-  background-color: #857542;
+  background-color: #cab46d;
   
 }
 
