@@ -173,6 +173,10 @@ section {
   border-radius: 9px;
   max-width: 800px;
   min-width: 100px;
+  
+}
+
+.sections-content{
   flex-grow: 1;
 }
 
