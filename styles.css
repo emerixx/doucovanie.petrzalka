@@ -74,8 +74,9 @@ header {
 
 
 .exercises_nav .search_div input{
-  width: 75%;                /* Full width for the search bar */
-  padding: 10px;             /* Padding inside the search bar */
+  width: 75%;                
+  padding: 10px;     
+  margin: auto;        /* Padding inside the search bar */
   margin-bottom: 20px;       /* Space below the search bar */
   border: none;              /* Remove border */
   border-radius: 5px;
@@ -100,7 +101,7 @@ header {
 }
 .exercises_nav_ul a{
  text-decoration: none;
- color: white;
+ color: black;
   
 }
 
