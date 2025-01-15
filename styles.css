@@ -64,7 +64,7 @@ header {
   color: white;
   width: 100px;
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 50px;
 }
 .exercises_nav_ul{
   list-style-type: none; /* Remove bullet points */
@@ -75,7 +75,9 @@ header {
 }
 .exercises_nav_ul li{
   text-align: center;         /* Remove default padding */
-    
+  padding: 10px;
+  border: solid gray 2px;
+  border-radius: 10px;
   
 }
 
