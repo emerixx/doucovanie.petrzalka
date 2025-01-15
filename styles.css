@@ -75,18 +75,18 @@ header {
 }
 
 
-nav ul {
+.main_nav ul {
   list-style-type: none;
   
 }
 
-nav ul li {
+.main_nav ul li {
   display: inline;
   cursor: pointer;
   
 }
 
-nav ul li a {
+.main_nav ul li a {
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: none;
