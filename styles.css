@@ -73,13 +73,16 @@ header {
 }
 
 .exercises_nav .search_div{
+  display: flex;
   align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .exercises_nav .search_div input{
   width: 75%;                
   padding: 10px;     
-  margin: auto;        /* Padding inside the search bar */
+ 
   margin-bottom: 20px;       /* Space below the search bar */
   border: none;              /* Remove border */
   border-radius: 5px;
