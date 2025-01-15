@@ -36,9 +36,10 @@ header {
 .secondary_nav_ul li {
   flex: 1;                   /* Each item takes equal space */
   text-align: center;        /* Center text within each item */
-  justify-content: center;
+  
+  background-color: aliceblue;
  
-  height: auto;
+  
 }
 
 
