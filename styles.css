@@ -37,8 +37,8 @@ header {
   flex: 1;                   /* Each item takes equal space */
   text-align: center;        /* Center text within each item */
   
-  background-color: aliceblue;
- 
+  background-color: blue;
+  height: 100px;
   
 }
 
