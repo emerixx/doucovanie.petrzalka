@@ -16,6 +16,10 @@ header {
   
 }
 
+.current_nav{
+  font-weight: bold;
+}
+
 .inner_header_container {
   text-align: center;
   width: 100%; 
