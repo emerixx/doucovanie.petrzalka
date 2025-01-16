@@ -49,7 +49,7 @@ function updateNav(indexes, text_arr, ul, dir){
     console.log(i);
     html+="<a href="+dir+indexes[i]+"><li>"+text_arr[indexes[i]]+"</li></a>"
    }
-  ul.innerHTML="<li>"+indexes[0]+"</li>"
+  ul.innerHTML=html;
 
 }
 
