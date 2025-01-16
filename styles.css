@@ -132,7 +132,10 @@ summary {
   cursor: pointer; /* Change cursor to indicate clickable */
   font-weight: bold; /* Make summary text bold */
 }
-
+details div p {
+  padding: 5px;
+  font-size: 20px;
+}
 
 .inner_header_container {
   text-align: center;
