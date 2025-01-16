@@ -64,7 +64,7 @@ search_bar.addEventListener('change', function() {
 });
 
 let arg=[];
-arg[0]=replaceSlovakCharacters(this.value).toLowerCase();
+arg[0]=replaceSlovakCharacters(search_bar.value).toLowerCase();
 arg[1]=exercises_math_text.map(word => replaceSlovakCharacters(word));;
 
 updateNav(findIndexes(arg[0], arg[1]), exercises_math_text, math_ul, "/exercises/math/");
