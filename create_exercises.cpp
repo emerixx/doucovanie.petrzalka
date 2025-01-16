@@ -13,18 +13,18 @@ int rand(int min, int max) {
 }
 
 
-string exponents(int n, float x1, float x2, float x3, float x4){
+string exponents(int n, float x1, float x2){
     string sa[n]={};
     string s ="";
-    int x[4]={};
-    int y;
+    int x[2];
+    string q="";
+    int a;
     for (int i = 0; i < n; i++) {
         x[0]=rand(2, 5+ceil(x1*i));
         x[1]=rand(2, 2+ceil(x2*i));
-        x[2]=rand(2, 5+ceil(x3*i));
-        x[3]=rand(2, 2+ceil(x4*i));
-        y=pow(x[0], x[1])+pow(x[2], x[3]);
-        sa[i]= fmt::format("<div> <p style='font-size: 20px;'>\\( {}^{} + {}^{} = ? \\)</p> <details> <summary>Výsledok:</summary> <div> <p>\\( {}^{} + {}^{} = {} \\)</p> </div> </details> </div>", x[0], x[1], x[2], x[3], x[0], x[1], x[2], x[3], y);
+        
+        a=pow(x[0], x[1]);
+        sa[i]= fmt::format("<div> <p style='font-size: 20px;'>\\( {}^{} = ? \\)</p> <details> <summary>Výsledok:</summary> <div> <p>\\( {}^{} = {} \\)</p> </div> </details> </div>", x[0], x[1], x[0], x[1], a);
     }
     for (int i = 0; i < n; i++) {
         s+=sa[i]+"\n";
@@ -35,8 +35,7 @@ string exponents(int n, float x1, float x2, float x3, float x4){
 
 
 int main() {
-    cout << "Hello, World!" << std::endl; 
-    cout << exponents(10, 1, 0.3, 1, 0.3);
+    cout << exponents(10, 0.5, 0.5)<<endl;
     return 0; 
 }
 
