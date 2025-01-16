@@ -10,7 +10,15 @@ function searchInArray(searchString, array) {
   // Use filter to find all strings that include the search string
   return array.filter(item => item.toLowerCase().includes(lowerCaseSearchString));
 }
+function findIndexes(searchString, array) {
+  // Convert the search string to lowercase for case-insensitive comparison
+  const lowerCaseSearchString = searchString.toLowerCase();
 
+  // Use map to create an array of indexes where the condition is met
+  return array
+      .map((item, index) => (item.toLowerCase().includes(lowerCaseSearchString) ? index : -1)) // Map to indexes or -1
+      .filter(index => index !== -1); // Filter out -1 values to get only valid indexes
+}
 
 function convertText() {
   const input = document.getElementById('inputText').value;
@@ -41,5 +49,5 @@ search_bar.addEventListener('change', function() {
   let arg=[];
   arg[0]=replaceSlovakCharacters(this.value).toLowerCase();
   arg[1]=exercises_math_text.map(word => replaceSlovakCharacters(word));;
-  console.log(searchInArray(arg[0], arg[1]));
+  console.log(findIndexes(arg[0], arg[1]));
 });
