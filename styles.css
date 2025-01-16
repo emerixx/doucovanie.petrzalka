@@ -128,13 +128,20 @@ details {
   background-color: #f0f0f0; /* Light background for visibility */
 }
 
-summary {
+details > summary {
   cursor: pointer; /* Change cursor to indicate clickable */
   font-weight: bold; /* Make summary text bold */
 }
 details div p {
   padding: 5px;
   font-size: 20px;
+}
+details > summary {
+  list-style: none; /* Remove default list style */
+}
+
+details > summary::-webkit-details-marker {
+  display: none; /* Hide the marker in WebKit browsers (like Safari) */
 }
 
 .inner_header_container {
