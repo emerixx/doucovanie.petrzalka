@@ -1,4 +1,5 @@
 let search_bar = document.getElementById("exercises_nav_search_bar");
+let math_ul=document.getElementById("exercises_nav_ul");
 let exercises_math_text = ["Mocniny a odmocniny", "Pytagorova veta", "Kruh, kružnica", "Riešenie lineárnych rovníc", "Riešenie lineárnych nerovníc"];
 let exercises_math_lc = exercises_math_text.map(word => word.toLowerCase());
 
@@ -42,6 +43,10 @@ function replaceSlovakCharacters(text) {
   return text.replace(/[áäčďéěíľĺňóôřšťúýžÁÄČĎÉÍĽŇÓÔ]/g, match => replacements[match]);
 }
 
+function updateNav(indexes, text_arr, ul, dir){
+  ul.innerHTML="<li>"+indexes[0]+"</li>"
+
+}
 
 
 search_bar.addEventListener('change', function() {
@@ -50,4 +55,5 @@ search_bar.addEventListener('change', function() {
   arg[0]=replaceSlovakCharacters(this.value).toLowerCase();
   arg[1]=exercises_math_text.map(word => replaceSlovakCharacters(word));;
   console.log(findIndexes(arg[0], arg[1]));
+  updateNav(findIndexes(arg[0], arg[1]), null, math_ul, null);
 });
