@@ -66,7 +66,7 @@ header {
 
   margin-top: 0;
   width: 350px;               /* Set the width of the nav */
-  background-color: #ffb744;
+  background-color: #ffb33a;
   color: white;               /* Text color */
            /* Padding around the nav */
   height: fit-content;
@@ -107,12 +107,12 @@ header {
   padding-bottom:20px;
   width: 100%;
   cursor: pointer;
-  background-color: #8fce65;
+  background-color: #ffb33a;
   
 }
 .exercises_nav_ul li:hover{
   
-  background-color: #b3eb8d;
+  background-color: #fcbc55;
   
 }
 .exercises_nav_ul a{
