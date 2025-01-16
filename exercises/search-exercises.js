@@ -44,6 +44,11 @@ function replaceSlovakCharacters(text) {
 }
 
 function updateNav(indexes, text_arr, ul, dir){
+  let html=""
+  for (let i = 0; i < indexes.length; i++) {
+    console.log(i);
+    html+="<a href="+dir+indexes[i]+"><li>"+text_arr[indexes[i]]+"</li></a>"
+   }
   ul.innerHTML="<li>"+indexes[0]+"</li>"
 
 }
@@ -55,5 +60,5 @@ search_bar.addEventListener('change', function() {
   arg[0]=replaceSlovakCharacters(this.value).toLowerCase();
   arg[1]=exercises_math_text.map(word => replaceSlovakCharacters(word));;
   console.log(findIndexes(arg[0], arg[1]));
-  updateNav(findIndexes(arg[0], arg[1]), null, math_ul, null);
+  updateNav(findIndexes(arg[0], arg[1]), exercises_math_text, math_ul, "math/");
 });
