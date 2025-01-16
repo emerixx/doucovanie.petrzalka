@@ -38,5 +38,5 @@ function replaceSlovakCharacters(text) {
 
 search_bar.addEventListener('change', function() {
   console.log('Search input changed to:', this.value);
-  console.log(searchInArray(replaceSlovakCharacters(this.value).toLowerCase(), exercises_math_lc));
+  console.log(searchInArray(replaceSlovakCharacters(this.value).toLowerCase(), replaceSlovakCharacters(exercises_math_text)));
 });
