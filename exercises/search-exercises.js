@@ -1,6 +1,6 @@
 let search_bar = document.getElementById("exercises_nav_search_bar");
 let math_ul=document.getElementById("exercises_nav_ul");
-let cur_sec_nav=document.getElementsByClassName("current_sec_nav")[0];
+let cur_sec_nav=document.getElementsByClassName("current_sec_nav")[0].name;
 let exercises_math_text = ["Mocniny a odmocniny", "Pytagorova veta", "Kruh, kružnica", "Riešenie lineárnych rovníc", "Riešenie lineárnych nerovníc"];
 let exercises_math_lc = exercises_math_text.map(word => word.toLowerCase());
 
@@ -43,7 +43,7 @@ function replaceSlovakCharacters(text) {
 function updateNav(indexes, text_arr, ul, dir){
   let html=""
   for (let i = 0; i < indexes.length; i++) {
-    console.log(i);
+    
     html+="<a href="+dir+indexes[i]+"><li>"+text_arr[indexes[i]]+"</li></a>"
    }
   ul.innerHTML=html;
