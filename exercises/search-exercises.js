@@ -1,7 +1,8 @@
 let search_bar = document.getElementById("exercises_nav_search_bar");
 let math_ul=document.getElementById("exercises_nav_ul");
 let cur_sec_nav=document.getElementsByClassName("current_sec_nav")[0].name;
-let exercises_math_text = ["Mocniny a odmocniny", "Pytagorova veta", "Kruh, kružnica", "Riešenie lineárnych rovníc", "Riešenie lineárnych nerovníc"];
+let exercises_math_text = ["Mocniny a odmocniny", "Riešenie lineárnych rovníc"];
+//["Mocniny a odmocniny", "Riešenie lineárnych rovníc", "Riešenie lineárnych nerovníc", "Pytagorova veta", "Kruh, kružnica"];
 let exercises_math_lc = exercises_math_text.map(word => word.toLowerCase());
 
 
