@@ -121,26 +121,25 @@ header {
   
 }
 
-details {
+.exercise_ans_det {
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #ccc; /* Optional border */
   background-color: #f0f0f0; /* Light background for visibility */
 }
 
-details > summary {
+.exercise_ans_det > summary {
   cursor: pointer; /* Change cursor to indicate clickable */
   font-weight: bold; /* Make summary text bold */
 }
-details div p {
+.exercise_ans_det > div > p {
   padding: 5px;
   font-size: 20px;
 }
-details > summary {
+.exercise_ans_det > summary {
   list-style: none; /* Remove default list style */
 }
-
-details > summary::-webkit-details-marker {
+.exercise_ans_det > summary::-webkit-details-marker {
   display: none; /* Hide the marker in WebKit browsers (like Safari) */
 }
 
