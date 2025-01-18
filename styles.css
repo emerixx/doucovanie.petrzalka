@@ -295,7 +295,7 @@ footer {
     margin-left: auto; /* Automatically adjusts left margin */
     margin-right: auto; /* Automaticalgirly adjusts right margin */
     max-width: 80%; /* Sets a maximum width for responsiveness */
-    
+    padding: 0;
     
   }
   
