@@ -6,6 +6,7 @@ body {
   background-color: #A8D5E2;
 }
 
+
 header {
   background-color: #F9A620;
   color: white;
@@ -269,12 +270,9 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    font-family: Arial, sans-serif;
+  
     font-size: 12px;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: #A8D5E2;
+    
   }
   
   header {
@@ -295,9 +293,9 @@ footer {
     
     display: inline-block; /* Allows the div to shrink to fit content */
     margin-left: auto; /* Automatically adjusts left margin */
-    margin-right: auto; /* Automatically adjusts right margin */
+    margin-right: auto; /* Automaticalgirly adjusts right margin */
     max-width: 80%; /* Sets a maximum width for responsiveness */
-    
+    padding: 0;
     
   }
   
