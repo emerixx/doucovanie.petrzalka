@@ -242,7 +242,7 @@ form input{
 form textarea{
   padding: 10px;
   margin-top: 5px;
-  resize: horizontal;
+  resize: vertical;
   max-height: 800px;
   min-height: 100px;
 }
