@@ -186,6 +186,7 @@ details > summary {
 
 .main_nav ul li a {
   color: white;
+  
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: none;
   font-weight: bold;
@@ -294,9 +295,9 @@ footer {
     
     display: inline-block; /* Allows the div to shrink to fit content */
     margin-left: auto; /* Automatically adjusts left margin */
-    margin-right: auto; /* Automatically adjusts right margin */
+    margin-right: auto; /* Automaticalgirly adjusts right margin */
     max-width: 80%; /* Sets a maximum width for responsiveness */
-    padding-right: 255px;
+    
     
   }
   
