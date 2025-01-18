@@ -234,14 +234,12 @@ form label {
   margin-top: 10px;
 }
 
-form input{
+form input, form textarea{
   padding: 10px;
   margin-top: 5px;
   
 }
-form .message{
-  height: max-content;
-}
+
 
 form button {
   margin-top: 10px;
