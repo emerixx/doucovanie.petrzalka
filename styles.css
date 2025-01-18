@@ -6,6 +6,7 @@ body {
   background-color: #A8D5E2;
 }
 
+
 header {
   background-color: #F9A620;
   color: white;
@@ -269,12 +270,9 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    font-family: Arial, sans-serif;
+  
     font-size: 12px;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: #A8D5E2;
+    
   }
   
   header {
